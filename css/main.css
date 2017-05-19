@@ -1,0 +1,63 @@
+/** GENERAL **/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  color: #444;
+}
+.no-space {
+  padding: 0 !important;
+}
+.row {
+  margin: 0 !important;
+}
+a, a:active, a:visited {
+  color: inherit;
+}
+a:hover {
+  opacity: 0.7;
+  transition: all 0.2s ease-in;
+}
+
+
+/** LEFT **/
+
+.wrapper {
+  text-align: center;
+  padding-top: 10em;
+}
+.heading {
+  padding-bottom: 2em;
+}
+.social {
+  padding-bottom: 1em;
+}
+.social-list > li {
+  margin-right: 10px !important;
+}
+@media (max-width: 767px) {
+  .left {
+    height: 50vh;
+  }
+  .wrapper {
+    padding-top: 5em;
+  }
+}
+
+
+/** RIGHT **/
+
+.img {
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@media (max-width: 767px) {
+  .img {
+    height: 50vh;
+  }
+}
